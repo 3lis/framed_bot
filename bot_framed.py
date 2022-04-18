@@ -448,7 +448,7 @@ def show_help( update, context ):
     Display the help message
     ------------------------------------------------------------------------------------------------------------- """
     txt     = "Play from the official [Framed website](https://framed.wtf).\n"
-    txt    += "From the website, share your score through Telegram directly to the bot.\n"
+    txt    += "From the website, copy the messagge containing your score and past it in the Telegram bot.\n"
     msg( update, txt )
     img( update, "https://static0.gamerantimages.com/wordpress/wp-content/uploads/2022/03/framed-game.jpg" )
 
